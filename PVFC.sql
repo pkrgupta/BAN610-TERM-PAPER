@@ -144,3 +144,6 @@ SELECT ProudctStandardPrice from PRODUCT_T
 WHERE ProductID=8;
 
 --Use comparison operators =, <, >, <=, >=, <>, !=
+				      
+				      
+				
