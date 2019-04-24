@@ -101,3 +101,13 @@ CREATE TABLE Enrollment(
 	CONSTRAINT Enrollment_FK FOREIGN KEY (StudentID) REFERENCES Student(NetID),
 	CONSTRAINT Enrollment_FK1 FOREIGN KEY (Class#, Semester) REFERENCES ClassList(Class#,Semester)
 );
+
+-- CREATE TABLE Enrollment(
+--	StudentID CHAR(6) NOT NULL,
+--	Class# INT NOT NULL,
+---	Semester VARCHAR(10) NOT NULL,
+--	LetterGrade CHAR(2),
+--	CONSTRAINT Enrollment_PK PRIMARY KEY (StudentID,Class#),
+--	CONSTRAINT Enrollment_FK FOREIGN KEY (StudentID) REFERENCES Student(NetID),
+--	CONSTRAINT Enrollment_FK1 FOREIGN KEY (Class#, Semester) REFERENCES ClassList(Class#,Semester)
+--);
